@@ -43,7 +43,7 @@ const totalDetails = (price, rating) => {
 
      <div class='p-3'>
       <p>Rating: ${Array.from(Array(parseInt(rating)).keys()).map(
-        (r) => '<i class="fas fa-star" text-danger></i>'
+        (r) => '<i class="fas fa-star"></i>'
     )}
   </p>
       <h2>Price: $ ${price}</h2>
